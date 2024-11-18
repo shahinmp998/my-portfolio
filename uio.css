@@ -1,0 +1,175 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navigation Bar styles */
+nav {
+    background-color: #031234;
+    padding: 40px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 5px 10px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #333;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+/* Header styles */
+header {
+    background: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+header p {
+    font-size: 1.2em;
+}
+
+/* Section container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* About section styles */
+.about {
+    color: #faf4f4;
+    background-color: #777f88;
+    padding: 50px 0;
+    text-align: center;
+    font-size: 28px;
+    height: 100vh;
+    
+}
+
+
+
+
+.profile-img {
+    width: 350px;
+    height: 350px;
+    border-radius: 30%;
+    margin-bottom: 30x;
+}
+
+/* Skills Section */
+.skills {
+    
+    background-color:  #031234;
+    padding: 50px 0;
+    height: 100vh;
+}
+
+
+
+.skills h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2em;
+    color: #ededed;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.skill {
+    background-color: #f9f9f9;
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+   
+}
+
+.skill h3 {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.skill p {
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+.skill:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Education Section */
+
+.education {
+    ;
+    background-color: #777f88;
+    padding: 50px 0;
+    height: 100vh;
+}
+
+.education h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2em;
+}
+
+.education-item {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.education-item h3 {
+    font-size: 1.5em;
+}
+
+.education-item p {
+    font-size: 1em;
+    margin-top: 5px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #031234;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
